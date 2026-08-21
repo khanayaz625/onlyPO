@@ -346,10 +346,9 @@ document.addEventListener('DOMContentLoaded', () => {
     btnSampleData.addEventListener('click', () => {
         document.getElementById('refNo').value = 'PO/ME/26-27/014';
         document.getElementById('poDate').value = '2026-08-13';
-        document.getElementById('buyerOrderNo').value = '';
-        document.getElementById('buyerOrderDate').value = '';
         document.getElementById('poSubject').value = 'Order for Supply of Paper Jharokha';
-
+        document.getElementById('buyerOrderNo').value = 'ORD-2026-99';
+        document.getElementById('buyerOrderDate').value = '2026-08-10';
         document.getElementById('supplierName').value = 'Mohini Enterprises';
         document.getElementById('supplierAddress').value = 'Shahpur- Mubarakpur - Ladawali, Kokarpur, Moradabad\n244504(U.P.)';
         document.getElementById('supplierGstin').value = '09ALGPP0253R1ZJ';
@@ -361,8 +360,6 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('companyEmail').value = 'hello@helpusgreen.com';
 
         document.getElementById('amountWords').value = 'Ten Thousand Five Hundred E.&O.E';
-        document.getElementById('paymentTerms').value = '';
-        document.getElementById('otherRef').value = '';
 
         document.getElementById('signatoryName').value = 'Karan Rastogi';
         document.getElementById('signatoryTitle').value = 'Partner';
